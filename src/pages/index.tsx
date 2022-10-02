@@ -1,11 +1,14 @@
 import type { NextPage } from 'next';
 import { NextLink } from '@mantine/next';
 import { Button } from '@mantine/core';
+import { Table } from '@/features/weapon/components/Table';
 
 const Home: NextPage = () => {
   return (
     <>
-      <Button component={NextLink} href="/page2">page2</Button>
+      <p>スプラ3個人用まとめ</p>
+      <h2>射程比較表</h2>
+      <Table></Table>
     </>
   );
 };
