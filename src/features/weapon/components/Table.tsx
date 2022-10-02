@@ -1,8 +1,8 @@
 import sortBy from 'lodash/sortBy';
 import { DataTable,DataTableSortStatus } from 'mantine-datatable';
 import { useEffect, useState } from 'react';
-// import Image from 'next/image';
-import { Text, Box, Image } from '@mantine/core';
+import Image from 'next/image';
+import { Text, Box } from '@mantine/core';
 import { WeaponProps } from '@/features/weapon/Props';
 
 type Props = {
