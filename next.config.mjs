@@ -2,6 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  basePath: process.env.GITHUB_ACTIONS && '/spla3-cheatsheets',
+  trailingSlash: true,
 };
 
 export default nextConfig;
