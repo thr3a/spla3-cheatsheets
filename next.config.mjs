@@ -6,8 +6,8 @@ const nextConfig = {
   trailingSlash: true,
   images: {
     unoptimized: true,
-    path: process.env.GITHUB_ACTIONS && '/spla3-cheatsheets',
-  }
+  },
+  assetPrefix: process.env.GITHUB_ACTIONS && '/spla3-cheatsheets',
 };
 
 export default nextConfig;
