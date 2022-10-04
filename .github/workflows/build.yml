@@ -30,7 +30,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: out
-          # cname: turai.work
+          cname: spla3.turai.work
 
       - name: Notification discord
         uses: sarisia/actions-status-discord@v1
