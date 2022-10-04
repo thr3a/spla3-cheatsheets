@@ -1,4 +1,4 @@
-import sortBy from 'lodash/sortBy';
+import sortBy from 'lodash.sortby';
 import { DataTable,DataTableSortStatus } from 'mantine-datatable';
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
