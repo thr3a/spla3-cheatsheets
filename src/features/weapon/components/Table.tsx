@@ -55,7 +55,7 @@ export const WeaponTable = ({weapons}: Props) => {
       />
       <Box sx={() => ({textAlign: 'right'})}>
         <Text size="sm" variant="link" component="a" target="_blank" href="https://twitter.com/Berg_Blog_Spl/status/1576051676976672769">
-        Source
+        元データ様
         </Text>
       </Box>
     </>

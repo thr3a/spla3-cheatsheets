@@ -1,0 +1,87 @@
+[
+  {
+    "name": "バラズシ",
+    "favored": "アクション強化",
+    "unfavored": "サブ性能"
+  },
+  {
+    "name": "シチリン",
+    "favored": "アクション強化",
+    "unfavored": "スペ増"
+  },
+  {
+    "name": "バトロイカ",
+    "favored": "インク軽減",
+    "unfavored": "メイン効率"
+  },
+  {
+    "name": "アイロニック",
+    "favored": "ジャン短",
+    "unfavored": "復短"
+  },
+  {
+    "name": "クラーゲス",
+    "favored": "イカ速",
+    "unfavored": "サブ影響軽減"
+  },
+  {
+    "name": "ロッケンベルグ",
+    "favored": "ヒト速",
+    "unfavored": "イカ速"
+  },
+  {
+    "name": "エゾッコ",
+    "favored": "スペ減",
+    "unfavored": "スペ増"
+  },
+  {
+    "name": "フォーリマ",
+    "favored": "スペ性能",
+    "unfavored": "サブ効率"
+  },
+  {
+    "name": "ホッコリー",
+    "favored": "サブ効率",
+    "unfavored": "インク回復"
+  },
+  {
+    "name": "ホタックス",
+    "favored": "復短",
+    "unfavored": "スペ減"
+  },
+  {
+    "name": "ジモン",
+    "favored": "メイン効率",
+    "unfavored": "ヒト速"
+  },
+  {
+    "name": "シグレニ",
+    "favored": "サブ影響軽減",
+    "unfavored": "アクション強化"
+  },
+  {
+    "name": "アロメ",
+    "favored": "インク回復",
+    "unfavored": "ジャン短"
+  },
+  {
+    "name": "ヤコ",
+    "favored": "スペ増",
+    "unfavored": "スペ性能"
+  },
+  {
+    "name": "アナアキ",
+    "favored": "サブ効率",
+    "unfavored": "スペ減"
+  },
+  {
+    "name": "エンペリー",
+    "favored": "サブ性能",
+    "unfavored": "インク軽減"
+  },
+  {
+    "name": "タタキケンサキ",
+    "favored": "メイン効率",
+    "unfavored": "サブ性能"
+  }
+]
