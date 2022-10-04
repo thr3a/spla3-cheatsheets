@@ -2,12 +2,12 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  basePath: process.env.GITHUB_ACTIONS && '/spla3-cheatsheets',
+  // basePath: process.env.GITHUB_ACTIONS && '/spla3-cheatsheets',
   trailingSlash: true,
   images: {
     unoptimized: true,
   },
-  assetPrefix: process.env.GITHUB_ACTIONS && '/spla3-cheatsheets',
+  // assetPrefix: '/spla3-cheatsheets',
 };
 
 export default nextConfig;
