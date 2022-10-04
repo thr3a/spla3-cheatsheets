@@ -1,17 +1,22 @@
 import { BrandProps } from '@/features/brands/Props';
 import { DataTable,DataTableSortStatus } from 'mantine-datatable';
+import sortBy from 'lodash.sortby';
 
 type Props = {
   brands: BrandProps[];
 };
 
 export const BrandTable = ({brands}: Props) => {
+
+  const sortedBrands = sortBy(brands, 'name');
+
   return (
     <>
       <DataTable
         withBorder
         withColumnBorders
         striped
+        idAccessor='name'
         columns={[
           {
             accessor: 'name',
@@ -26,7 +31,7 @@ export const BrandTable = ({brands}: Props) => {
             title: 'つきにくい'
           }
         ]}
-        records={brands}
+        records={sortedBrands}
       />
     </>
   );
