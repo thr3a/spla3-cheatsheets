@@ -1,5 +1,5 @@
 import { BrandProps } from '@/features/brands/Props';
-import { DataTable,DataTableSortStatus } from 'mantine-datatable';
+import { DataTable } from 'mantine-datatable';
 import sortBy from 'lodash.sortby';
 
 type Props = {
